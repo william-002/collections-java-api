@@ -50,6 +50,6 @@ public class Main {
 
         // Remover um livro pelo título
         livrariaOnline.removerLivro("1984");
-        System.out.println(livrariaOnline.livros);
+        System.out.println(livrariaOnline.exibirLivrosOrdenadosPorAutor());
     }
 }
